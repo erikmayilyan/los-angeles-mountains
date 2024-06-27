@@ -1,0 +1,47 @@
+.header__main {
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  background-image: url(/src/assets/mountain.avif);
+}
+
+.header__text {
+  font-size: 80px;
+  font-weight: 900;
+  padding: 70px 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header__text .text1 {
+  color: rgb(190, 190, 190);
+  margin-bottom: -40px;
+}
+
+.header__text {
+  color: rgb(83, 73, 204);
+}
+
+@media screen and (max-width: 768px) {
+  .header__text {
+    font-size: 60px;
+    padding: 100px 50px;
+  }
+
+  .header__text .text1 {
+    color: rgb(42, 42, 42);
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .header__text {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .header__text {
+    font-size: 25px;
+    padding: 100px 20px;
+  }
+}

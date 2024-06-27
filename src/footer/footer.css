@@ -1,0 +1,9 @@
+footer {
+  background-color: rgb(56, 56, 75);
+}
+
+.footer__copyright {
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}

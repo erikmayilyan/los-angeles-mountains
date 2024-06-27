@@ -1,0 +1,129 @@
+.team__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__title {
+  display: flex;
+  align-items: center;
+}
+
+.team__title h1 {
+  font-size: 16vh;
+  color: rgb(129, 129, 162);
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+.team__title h3 {
+  font-size: 5vh;
+  color: rgb(55, 55, 172);
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  margin-left: -30px;
+}
+
+.team__text {
+  padding-left: 30px;
+  width: 40%;
+}
+
+.team__mountains {
+  display: flex;
+  padding-left: 80px;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgb(55, 55, 172);
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.mountain__active {
+  background-color: rgb(201, 201, 201);
+  color: rgb(55, 55, 172);
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  max-width: 100px;
+}
+
+.team__mountain__btn {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  max-width: 100px;
+  margin-right: 10px; 
+  background-color: rgb(55, 55, 172);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.team__content {
+  display: none;
+}
+
+.team__active {
+  display: block;
+  background-color: rgba(185, 185, 185, 0.6);
+  max-width: max-content;
+  padding: 10px 20px;
+  color: rgb(55, 55, 172);
+  font-family: 'Oswald', sans-serif;
+}
+
+.team__schedule {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.team__schedule p label {
+  margin-left: 50px;
+}
+
+.team__result {
+  margin: 0;
+  margin-top: -16px;
+  padding: 100px 90px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  background-image: url(/src/assets/mountain.avif);
+}
+
+@media screen and (max-width: 768px) {
+  .team__mountains {
+    padding-left: 0;
+    flex-direction: column; 
+  }
+
+  .mountain__active {
+    max-width: none; 
+    margin-right: 0; 
+  }
+
+  .team__mountain__btn {
+    max-width: none; 
+    margin-right: 1000px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team__text {
+    display: none;
+  }
+
+  .team__title {
+    margin-left: 10px;
+  }
+
+  .team__text__2 {
+    display: block;
+    padding: 0 50px;
+  }
+
+  .team__result {
+    padding: 10px;
+  }
+}

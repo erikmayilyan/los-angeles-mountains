@@ -1,0 +1,32 @@
+.slider__main {
+  margin: 0;
+  padding: 0;
+  background-image: url(/src/assets/second.png);
+  background-size: cover;
+  background-position: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.mySwiper {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper {
+  height: fit-content;
+  padding-bottom: 2rem;
+}
+
+.swiper__slide {
+  cursor: grab;
+  flex: 0 0 auto;
+}
+
+.swiper_img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  padding-top: 20px;
+  margin-left: 60px;
+}
